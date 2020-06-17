@@ -15,6 +15,8 @@ import { OrphanagesListComponent } from './modules/orphanages/orphanages-list/or
 import { DonateComponent } from './modules/donate/donate.component';
 import { PageNotFoundComponent } from './modules/page-not-found/page-not-found.component';
 import { HomeComponent } from './modules/home/home.component';
+import { HeaderComponent } from './modules/home/header/header.component';
+import { FooterComponent } from './modules/home/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,8 @@ import { HomeComponent } from './modules/home/home.component';
     DonateComponent,
     PageNotFoundComponent,
     HomeComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
