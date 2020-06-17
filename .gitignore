@@ -40,7 +40,7 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
-/assets/docs/*
+/assets/docs
 
 # System Files
 .DS_Store
